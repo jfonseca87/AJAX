@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 62.5% Arial, Verdana, sans-serif;
+	color: #000;
+	background: #F2EC9F;
+}
+#contenedor {
+	font-size: 1.2em;
+	margin: 10px 2em;
+}
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 0;
+	color:#000099;
+}
+h1.subtitulo {
+	font: italic normal 1.5em "Times New Roman", Times, serif;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+h2 {
+	font-size: 1.3em;
+	margin-bottom: .5em;
+}
+h2.subtitulo {
+	font: italic normal 1em "Times New Roman", Times, serif;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+h3 {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+h3.subtitulo {
+	color:#FFFFFF;
+	font:bold;
+}
+
+.capitulo {
+	margin: 1em;
+}
+#alternador {
+	float: right;
+	background-color: #006666;
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 10px;
+	font-size: .9em;
+}
+#alternador h3 {
+	margin: 0;
+}
+#alternador .boton {
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	background-color: #E4FDE1;
+	border-top: 3px solid #F2EC9F;
+	border-left: 3px solid #F2EC9F;
+	border-bottom: 3px solid #E8DD55;
+	border-right: 3px solid #E8DD55;
+}
+#alternador-largo {
+	color:#006666;
+	font:bolder;
+}
+.largo {
+	font-size: 1.5em;
+}
+.estrecho {
+	width: 400px;
+}
+.selected {
+	font-weight: bold;
+}
+.ocultar {
+	display: none;
+}
+
+#alternador .hover {
+	cursor: pointer;
+	background-color: #afa;
+}
